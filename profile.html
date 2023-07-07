@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/15ae30e556.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png"></a>
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"><span>Networks</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right" >
+            <div class="online" onclick="toggleSettings()">
+                <img src="images/user-1.png" class="nav-profile-img">
+
+           </div>
+        </div>
+<!-- ....................profile dropdown menu..................-- -->
+        <div class="profile-menu-wrap">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user-1.png" alt="">
+                    <div>
+                        <h3>Manjeet Kadyan</h3>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-info">
+                    <img src="images/feedback.png" alt="">
+                    <div class="name-i">
+                        <h3>Give feedback</h3>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                
+                <div class="user-info">
+                    <img src="images/setting.png" alt="">
+                    <div class="name-i">
+                        <h3>Setting & Privacy</h3>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="user-info">
+                    <img src="images/help.png" alt="">
+                    <div class="name-i">
+                        <h3>Help & Support</h3>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="user-info">
+                    <img src="images/display.png" alt="">
+                    <div class="name-i">
+                        <h3>Display & Accessibility</h3>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="user-info">
+                    <img src="images/display.png" alt="">
+                    <div class="name-i">
+                        <h3>Display & Accessibility</h3>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="user-info">
+                    <img src="images/logout.png" alt="">
+                    <div class="name-i">
+                        <h3>Logout</h3>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- -------------------------nav bar close...........----------------------------------------------------- -->
+
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="images/cover-pic.png" alt="" width="100%">
+                <div class="profile-container-inner">
+                    <img src="images/user-1.png" class="profile-pic">
+                    <h1>Manjeet Kadyan</h1>
+                    <b>Web Developer at SpaceTech | Former Developer at DataStack and intern at Oracle</b>
+                    <p>Sonipat, India &middot; <a href="#">Contact Info</a></p>
+                    <div class="mutual-connection">
+                        <img src="images/user-2.png" alt="">
+                        <span>1 mutual connection: Ranbir Singh</span>
+                    </div>
+
+                    <div class="profile-btn">
+                        <a href="#" class="primary"><img src="images/connect.png" alt="">Connect</a>
+                        <a href="#"><img src="images/chat.png" alt="">Message</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>Experienced web developer with a strong background in developing award-winning applications for a diverse clientele. 5+ years of industry experience includes programming, debugging, and wireframes. Received 80%+ experience scores on every web application built for SoftwareX. </p>
+                <a href="#" class="see-more-link">See more...</a>
+            </div>
+            <div class="profile-description">
+                <h2>Experience</h2>
+                    <div class="profile-desc-row">
+                        <img src="images/microsoft.png" alt="">
+                        <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2023 - Present &middot; 1.5 years</b>
+                        <p>Generally, soft skills are really important, but, you see, any CS graduate can say they’re a team leader, but not many have an advanced knowledge of DNS management.</p>
+                        <hr>
+                    </div>
+                    </div>
+                    <div class="profile-desc-row">
+                        <img src="images/slack.png" alt="">
+                        <div>
+                        <h3>Full Stack Developer</h3>
+                        <b>Slack &middot; Full-time</b>
+                        <b>Jan 2020 - Feb 2023 - Present &middot; 3.1 years</b>
+                        <p>Generally, soft skills are really important, but, you see, any CS graduate can say they’re a team leader, but not many have an advanced knowledge of DNS management.</p>
+                        <hr>
+                    </div>
+                    </div>
+                    <div class="profile-desc-row">
+                        <img src="images/google.png" alt="">
+                        <div>
+                        <h3>Web Developer</h3>
+                        <b>Google Inc &middot; Full-time</b>
+                        <b>March 2018 - Jan 2020 - Present &middot; 1.9 years</b>
+                        <p>Generally, soft skills are really important, but, you see, any CS graduate can say they’re a team leader, but not many have an advanced knowledge of DNS management.</p>
+                        
+                    </div>
+                    </div>
+                    <hr>
+                    <a href="#" class="experience-link">Show all 7 Experiences <img src="images/right-arrow.png" alt=""></a>
+                </div>
+                <div class="profile-description">
+                    <h2>Education</h2>
+                        <div class="profile-desc-row">
+                            <img src="images/stanford.png" alt="">
+                            <div>
+                            <h3>Stanford University</h3>
+                            <b>BSEE, Electrical Engineering</b>
+                            <b>2018-2022</b>
+                            <hr>
+        </div>
+    </div>
+    <div class="profile-desc-row">
+        <img src="images/north.png" alt="">
+        <div>
+        <h3>Northwestern University</h3>
+        <b>Computer Science</b>
+        <b>2015-2018</b>
+        <hr>
+</div>
+</div>
+<div class="profile-desc-row">
+    <img src="images/mit.png" alt="">
+    <div>
+    <h3>Harvard University</h3>
+    <b>Senior High School</b>
+    <b>2005-2015</b>
+    
+</div>
+</div>
+</div>
+
+<div class="profile-description">
+    <h2>Skills</h2>
+    <div class="skills-btn">
+        <a href="#" class="skill-btn">Leadership</a>
+        <a href="#" class="skill-btn">Web Design</a>
+        <a href="#" class="skill-btn">Development</a>
+        <a href="#" class="skill-btn">Communication</a>
+        <a href="#" class="skill-btn">UI/UX</a>
+        <a href="#" class="skill-btn">Python</a>
+        <a href="#" class="skill-btn">JavaScript</a>
+        <a href="#" class="skill-btn">Ruby</a>
+        <a href="#" class="skill-btn">React</a>
+        <a href="#" class="skill-btn">Angular</a>
+    </div>
+    </div>
+    <div class="profile-description">
+        <h2>Languages</h2>
+        <div class="skills-btn">
+            <a href="#" class="skill-btn">English</a>
+            <a href="#" class="skill-btn">German</a>
+            <a href="#" class="skill-btn">Hindi</a>
+            </div>
+            </div>
+    </div>
+        <!-- .........--------------profile sidebar-------------------- -->
+        <div class="profile-sidebar">
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principles of web design</p>
+                <div>
+                    <img src="images/user-1.png" alt="">
+                    <img src="images/mi-logo.png" alt="">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+            
+            <div class="sidebar-people">
+                <h3>People you may know</h3>
+                <div class="sidebar-people-row">
+                    <img src="images/user-3.png" alt="">
+                    <div>
+                        <h2>Samuel Tony</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-2.png" alt="">
+                    <div>
+                        <h2>Harish Jakson</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-1.png" alt="">
+                    <div>
+                        <h2>Jack Sider</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-4.png" alt="">
+                    <div>
+                        <h2>Martin Luther</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-5.png" alt="">
+                    <div>
+                        <h2>Ravindra Jadeja</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+<div class="profile-footer">
+    <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Help center</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Advertising</a>
+        <a href="#">Get the app</a>
+        <a href="#">More</a>
+
+        <div class="copyright-msg">
+            <img src="images/logo.png" alt="">
+            <p>Linkedup &#169; 2022. All right reserved</p>
+        </div>
+
+
+    </div> 
+</div>
+
+
+
+
+
+
+
+
+
+
+        <script src="1.js"></script>
+</body>
+</html>
